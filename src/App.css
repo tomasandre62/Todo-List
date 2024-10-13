@@ -1,0 +1,49 @@
+body{
+  background: #faebeb;
+  background-clip: padding-box;
+}
+.delete-icon {
+  display: none;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+li:hover .delete-icon {
+  display: inline;
+  color: red;
+}
+.content{
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 25rem;
+}
+ul{
+  list-style: none;
+  padding-left: 0;
+  padding-top: 5px;
+  font-size: 25px;
+}
+.card-body{
+  padding-bottom: 0px;
+}
+.paper {
+  background: #fff;
+  box-shadow:
+    /* The top layer shadow */
+    0 1px 1px rgba(0,0,0,0.15),
+    /* The second layer */
+    0 10px 0 -5px #eee,
+    /* The second layer shadow */
+    0 10px 1px -4px rgba(0,0,0,0.15),
+     /* The third layer */
+    0 20px 0 -10px #eee,
+    /* The third layer shadow */
+    0 20px 1px -9px rgba(0,0,0,0.15);
+    /* Padding for demo purposes */
+    padding: 30px;
+    padding-bottom: 0px;
+}
+.card-header{
+color: #000000;
+}
